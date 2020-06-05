@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Make Order</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form class="order-form" action="">
+        <div class="form-group">
+    
+        <label for="title">Title:</label>
+        <br>
+        <input type="text" id="title" class="form-control" required placeholder="Mr/Mrs/DR./Prof./Pst.">
+         <br>
+        <label>Last Name:</label>
+        <br>
+        <input type="text" id="surName" placeholder="Enter Last Name">
+        <br>
+        <label>First Name:</label>
+        <br>
+        
+        <input type="text" id="firstName" required placeholder="Enter First Name">
+        <br>
+        <label>Other Name:</label>
+    
+        <br>
+        <input type="text" id="otherName" placeholder="Enter Other Name">
+        <br><br>
+        <label>Phone Number:</label>
+        <br>
+        <input type="text" id="phoneNumber" required placeholder="Enter Phone Number">
+        <br>
+        <Label for="email">E-mail:</Label>
+        <br>
+        <input type="email" id="orderemail" required placeholder="Enter E-mail" >
+        <br>
+        <label>Address:</label>
+        <br>
+        <input type="text"  id="address" placeholder="Enter Address" required>
+        <br>
+        <select id="select">
+            <option value="" disabled selected>--Select Venue--</option>
+            <option value="">Home Address</option>
+            <option value="">Office Address</option>
+            <option value="">Casual Venue</option>
+        </select><br><br> 
+        <label>Date Ordered:</label>
+        <br>
+        <input type="date" name="" id="dateOrder">
+       <br>
+        <label>Pick Up Date:</label>
+        <br>
+        <input type="date" name="" id="pickupDate" required>
+        <br>
+        <label>Delivery Date:</label>
+        <br>
+        <input type="date" name="" id="deliveryDate" required>
+        
+        <br>
+        <label for="Message">Message:</label>
+        <br>
+        <textarea placeholder="Write a Note"  id="textarea"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit" class="button" onclick="fillForm();">
+    </div>
+    </form>
+
+    <a href="index.html"><button>Home</button></a>
+    <a href="order.html"><button>Back to Top</button></a>
+    
+</body>
+</html>
