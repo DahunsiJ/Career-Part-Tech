@@ -22,7 +22,7 @@ header {
     position: fixed;
     width: 100%;
     margin-top: -100px;
-    height: 100px;
+    height: 60px;
     color: whitesmoke;
   }
 
@@ -75,6 +75,11 @@ button:hover{
     color: rgb(8, 90, 28);
     border: 5px solid  rgb(172, 247, 74);
     background-color: rgb(55, 165, 51)
+}
+
+#card {
+  width: 60%;
+  align: middle
 }
 
 button a{
