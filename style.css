@@ -1,30 +1,54 @@
 head {
-    background-color: rgb(172, 247, 74);
+    background-color: #2F4F4F;
     margin-top: 10vw;
     margin: 30px auto;
     color:whitesmoke
 
 }
 body {
-  background-color: rgb(27, 43, 5);
+  background-color: #DCDCDC;
     margin: 0 auto;
     margin-top: 10vw;
-    color: aliceblue;
-
+    
+    color: #2F4F4F;
+    width: 89%;
+    height: 1000px;
+    padding:0px;
+    font-family: fantasy;
+    font-size: 20px;
+    word-spacing: 4px;
 }
 
 
-
-
-header {
-    background-color: rgba(255, 195, 127, 0.801);
+nav {
+    background-color: #2F4F4F;
+    color: white;  
     border-bottom: 5px solid #466995;
     position: fixed;
-    width: 100%;
-    margin-top: -100px;
-    height: 60px;
-    color: whitesmoke;
+    width: 86%;
+    margin-top: 5px;
+    height: 100px;
+    text-align: center;
+    text-indent: 1em;
+    text-transform: capitalize;
+    padding: 5px;
   }
+
+  header{
+    background-color:#2F4F4F;
+    color: white; 
+    width: 86%; 
+    padding:30px;
+    margin:20px;
+    align: center;
+    }
+
+
+    #carouselPictureIndicator{
+      padding-top: 100px;
+      width: 86%:
+    }
+  
 
   button {
     background-color: rgb(8, 61, 21);
@@ -39,7 +63,7 @@ header {
     
   }
 
-  .button {
+  /* .button {
     background-color: rgb(8, 61, 21);
     color: whitesmoke;
     border-color: rgb(198, 214, 175);
@@ -50,7 +74,7 @@ header {
     width: 100px;
     height: 50px;
     
-  }
+  } */
   
   .button:hover {
     background: transparent;
@@ -68,6 +92,8 @@ button a{
     cursor: pointer;
     border-radius: 140px;
     background: transparent;
+    text-align: center;
+    font-size: 8px;
 }
 
 button:hover{
@@ -77,9 +103,9 @@ button:hover{
     background-color: rgb(55, 165, 51)
 }
 
-#card {
+.card {
   width: 60%;
-  align: middle
+  align: center;
 }
 
 button a{
@@ -117,8 +143,25 @@ input [type="date"]{
 
 }
 
-#carousel-item {
-  width: 100%
+a{
+ color: white;
+ padding:20px; 
+ margin: 20px;
+}
+
+a:link {
+  color: #696969; 
+  padding:20px; 
+  margin: 20px;
+}
+
+a:visited {
+  color: #696969; 
+  padding:20px; 
+  margin: 20px;
+}
+
+
 }
   img {
     margin-top: 20px;
@@ -131,13 +174,13 @@ input [type="date"]{
   }
 
   
-  h1 {
-    color: #466995;
+  .top {
+    color: #DCDCDC;
     font-family: 'Oswald', sans-serif;
-    font-size: 32px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 250;
     text-transform: uppercase;
-    background-color: bisque;
+    background-color: 	#708090;
     font-weight: 200;
     text-align: center;
 
@@ -172,11 +215,19 @@ input [type="date"]{
   }
   
   footer {
-    background-color: #DBE9EE;
+    background-color: #708090;
+    color: white;
     text-align: center;
-    height: 375px;
+    text-indent: 1em; 
+    font-size: 10px;
+    padding: 20px;
+    margin: 20px;
+    border: groove thin white;
+    height: 250px;
+    width: 1130px;
     color: rgb(172, 247, 74);
   }
+  
 
   #email{
     width: 100%;
@@ -199,4 +250,24 @@ input [type="date"]{
   }
  
   
-  
+  /* <style>
+
+section{
+color: black; text-align: center; text-indent: 1em; text-transform:
+capitalize; padding:0px; margin: 20px; background-color:white; text-decoration:
+none;
+}
+
+
+
+
+h1{
+color:white;
+}
+h2{
+color: black; text-align: center;
+}
+article{
+border-bottom-style: solid;
+}
+</style> */
